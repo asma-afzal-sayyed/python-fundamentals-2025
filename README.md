@@ -45,7 +45,7 @@ To apply concepts, I’ve also included small projects:
 Clone the repo and run any example:
 
 ```bash
-git clone https://github.com/USERNAME/python-fundamentals-2025.git
+git clone https://github.com/asma-afzal-sayyed/python-fundamentals-2025.git
 cd python-fundamentals-2025
 python examples/filename.py
 ```
