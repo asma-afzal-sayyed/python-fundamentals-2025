@@ -37,6 +37,7 @@ student_score = 95
 2name = "Asma"      # Cannot start with a number
 class = "Python"    # 'class' is a reserved keyword
 
+```
 # Variable Types
 
 ### camelCase
@@ -51,5 +52,7 @@ All letters are lowercase, and words are separated by an underscore (`_`).
 Also known as Upper Camel Case. Every word starts with an uppercase letter. No spaces or punctuation are used between words.  
 **Example:** `UserAccountDetails`
 
+```
 ---
 [🔙 Back to Index](README.md)
+```
