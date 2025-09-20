@@ -38,7 +38,7 @@ student_score = 95
 class = "Python"    # 'class' is a reserved keyword
 
 ```
-# Variable Types
+## Variable Types
 
 ### camelCase
 The first word starts with a lowercase letter. Subsequent words begin with an uppercase letter. No spaces or punctuation are used.  
@@ -51,8 +51,117 @@ All letters are lowercase, and words are separated by an underscore (`_`).
 ### PascalCase
 Also known as Upper Camel Case. Every word starts with an uppercase letter. No spaces or punctuation are used between words.  
 **Example:** `UserAccountDetails`
+
+## Escape Sequences
+
+An escape sequence starts with a backslash (`\`) and allows you to include special characters in strings.
+
+**Common escape sequences:**
+
+- `\'` - Single quote  
+- `\"` - Double quote  
+- `\\` - Backslash  
+- `\n` - New line  
+- `\t` - Tab  
+- `\r` - Carriage return  
+- `\b` - Backspace
+
+## Python Operators
+
+### 1. Assignment Operator
+`=`  
+
+### 2. Arithmetic Operators
+`+`, `-`, `*`, `/`, `//`, `%`, `**`  
+
+**Unary Operators:** `++`, `--` (apply on one single operand)  
+**Binary Operators:** `+`, `-`, `*`, `**` (apply on two operands)  
+
+### 3. Comparison / Relational Operators
+`<`, `>`, `<=`, `>=`, `==`, `!=`  
+
+### 4. Logical Operators
+`AND`, `OR`, `NOT`, `NAND`, `XOR`  
+
+### 5. Identity Operators
+`is`, `is not`  
+
+### 6. Membership Operators
+`in`, `not in`  
+
+## String and Integer Concatenation
+
+Python can't directly concatenate a string and an integer.  
+
+**Example:**
+
+```python
+"Asma" + 10
 ```
+**Error:**
+```python
+TypeError: can only concatenate str (not "int") to str
+```
+
+**Explanation:**
+
+* `"Asma"` is a string.
+* `10` is an integer.
+* Python does not automatically convert between strings and integers for concatenation, so this operation fails.
+
+---
+
+## Using the `eval()` Function
+
+The `eval()` function can be used to **convert a string that represents a number into an integer**.
+This allows arithmetic operations to be performed successfully.
+
+---
+
+## Example with `eval()`
+
+```python
+# String representing a number
+x = "10"
+
+# Integer
+y = 10
+
+# Convert string x to integer using eval()
+x1 = eval(x)
+
+# Add the two integers
+sum1 = x1 + y
+
+# Print the result
+print(sum1)
+```
+
+**Output:**
+
+```
+20
+```
+## Step-by-Step Explanation
+
+1. `x = "10"`  
+   Here, `x` is a string containing the number `"10"`.
+
+2. `y = 10`  
+   `y` is an integer.
+
+3. `x1 = eval(x)`  
+   The `eval()` function evaluates the string `"10"` as a Python expression and converts it into the integer `10`.
+
+4. `sum1 = x1 + y`  
+   Now that both `x1` and `y` are integers, addition is possible.  
+   `10 + 10` equals `20`.
+
+5. `print(sum1)`  
+   Outputs the result `20`.
+
+
 
 ---
 [🔙 Back to Index](README.md)
-```
+
