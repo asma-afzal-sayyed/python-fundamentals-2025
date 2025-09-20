@@ -51,8 +51,8 @@ All letters are lowercase, and words are separated by an underscore (`_`).
 ### PascalCase
 Also known as Upper Camel Case. Every word starts with an uppercase letter. No spaces or punctuation are used between words.  
 **Example:** `UserAccountDetails`
-
 ```
+
 ---
 [🔙 Back to Index](README.md)
 ```
