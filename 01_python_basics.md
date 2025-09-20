@@ -37,6 +37,19 @@ student_score = 95
 2name = "Asma"      # Cannot start with a number
 class = "Python"    # 'class' is a reserved keyword
 
+# Variable Types
+
+### camelCase
+The first word starts with a lowercase letter. Subsequent words begin with an uppercase letter. No spaces or punctuation are used.  
+**Example:** `calculateTotalAmount`
+
+### snake_case
+All letters are lowercase, and words are separated by an underscore (`_`).  
+**Example:** `calculate_total_amount`
+
+### PascalCase
+Also known as Upper Camel Case. Every word starts with an uppercase letter. No spaces or punctuation are used between words.  
+**Example:** `UserAccountDetails`
 
 ---
 [🔙 Back to Index](README.md)
