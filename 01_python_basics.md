@@ -161,6 +161,42 @@ print(sum1)
    Outputs the result `20`.
 
 
+## ASCII (American Standard Code for Information Interchange)
+
+ASCII is a standard for representing characters as numerical values.
+
+## Checking ASCII Values
+
+```python
+print(chr(65))  # Output: A
+print(chr(97))  # Output: a
+````
+
+* `chr()` function converts an **ASCII value** to its corresponding **character**.
+* Example: `65` → `'A'`, `97` → `'a'`.
+
+---
+
+## Checking Data Type
+
+You can check the type of any data in Python using `type()`:
+
+```python
+print('Hello world')
+print(type("Hello world"))
+```
+
+**Output:**
+
+```
+Hello world
+<class 'str'>
+```
+
+* `type()` returns the **class/type** of the data.
+* Here, `"Hello world"` is of type `str` (string).
+
+
 
 ---
 [🔙 Back to Index](README.md)
