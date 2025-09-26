@@ -1,9 +1,9 @@
 # Strings
 
 
-- Strings are declared in `""` or `''`.
-- Example: `"Hello world"`, `"Python"`, `"Asma"`, etc.
-- `"12356"`, `"@#!:%"` → this is also a string.
+- Strings are declared in `[" "]` or `[' ']`.
+- Example: `"Hello world"`, `'Python'`, `"Asma"`, etc.
+- `"12356"`, `'@#!:%'` → this is also a string.
 - Anything declared in single or double quotes is a string.
 
 ---
