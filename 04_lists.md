@@ -4,7 +4,7 @@
 
 A diagram shows a breakdown of Data Structures:
 
-# Data Structures Breakdown
+### Data Structures Breakdown
 
 | Category       | Sub-Category | Type     | Examples                                    |
 |----------------|--------------|----------|---------------------------------------------|
