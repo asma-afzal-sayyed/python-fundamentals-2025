@@ -23,9 +23,9 @@
 tup = ()
 print(tup)
 print(type(tup))
+>> <class 'tuple'>
 ```
 
-$>> \text{<class 'tuple'>}$
 
 ### Indexing
 
@@ -103,10 +103,13 @@ X[:2]
 
 X[2:4]
 >> (11.00, True)
+```
+### Nested indexing/Accessing elements in a nested tuple/list/dictionary
+``` python
 
-# Nested indexing/Accessing elements in a nested tuple/list/dictionary
-X = ('Hello', 'Python', 3.14, True, False, (1, 2, 3), [1, 2, 'Asma'], {'a': 12, 'b': 20})
 # Accessing the element 'Asma' inside the list at index 6
+
+X = ('Hello', 'Python', 3.14, True, False, (1, 2, 3), [1, 2, 'Asma'], {'a': 12, 'b': 20})
 X[6][2] = 'Asma' 
 print(X)
 
