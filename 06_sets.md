@@ -286,12 +286,16 @@ print("Minimum:", min(a))
 print("Maximum:", max(a))
 print("Length:", len(a))
 print("Average:", sum(a) / len(a))
+```
 
-# >> Sum: 22
-# >> Minimum: 1
-# >> Maximum: 7
-# >> Length: 6
-# >> Average: 3.6666666666666665
+**Output:**
+
+```
+>> Sum: 22
+>> Minimum: 1
+>> Maximum: 7
+>> Length: 6
+>> Average: 3.6666666666666665
 ```
 
 ---
