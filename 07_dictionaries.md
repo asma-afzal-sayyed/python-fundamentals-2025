@@ -27,10 +27,13 @@ print(dict)
 ````
 
 **Output:**
+
+```
 `{'name': 'Asma', 'age': 20, 'city': 'Pune'}`
 
 * The dictionary is enclosed in curly brackets `{ }`.
 * Each key is separated from its value by a **colon ( : )**, and **commas ( , )** are used to separate the items.
+```
 
 ---
 
@@ -59,7 +62,10 @@ dict.keys()
 ```
 
 **Output:**
+
+```
 `dict_keys(['name', 'age', 'city'])`
+```
 
 ---
 
@@ -72,7 +78,10 @@ dict.values()
 ```
 
 **Output:**
+
+```
 `dict_values(['Asma', 20, 'Pune'])`
+```
 
 ---
 
@@ -85,7 +94,10 @@ dict.items()
 ```
 
 **Output:**
+
+```
 `dict_items([('name', 'Asma'), ('age', 20), ('city', 'Pune')])`
+```
 
 ---
 
@@ -99,8 +111,10 @@ dict
 ```
 
 **Output:**
-`{'name': 'Asma', 'age': 20, 'city': 'Pune', 'Phno': '1003568901'}`
 
+```
+`{'name': 'Asma', 'age': 20, 'city': 'Pune', 'Phno': '1003568901'}`
+```
 
 ### Updating an Existing Value
 
@@ -110,7 +124,10 @@ dict
 ```
 
 **Output:**
+
+```
 `{'name': 'Asma', 'age': 20, 'city': 'Pune', 'Phno': '1234'}`
+```
 
 ---
 
@@ -264,7 +281,10 @@ print(25 in dict)
 ```
 
 **Output:**
+
+```
 `False`
+```
 
 Adding an item and re-checking:
 
@@ -293,7 +313,10 @@ x
 ```
 
 **Output:**
+
+```
 `{'family': 'music', 'type': 'pop', 'year': 2025}`
+```
 
 ```python
 x['name'] = 'Asma'
@@ -301,7 +324,10 @@ x
 ```
 
 **Output:**
+
+```
 `{'family': 'music', 'type': 'pop', 'year': 2025, 'name': 'Asma'}`
+```
 
 ---
 [🔙 Back to Index](README.md)
