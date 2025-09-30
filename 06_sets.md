@@ -137,5 +137,163 @@ print(x)
 
 ---
 
+### `discard()`
+
+- `discard()` is used to **remove an element from a set**.  
+- `discard()` removes the element if it exists in the set.  
+- If the element is **not present**, it does **NOT raise an error** (unlike `remove()` which raises a `KeyError`).  
+- Works only on sets.  
+
+**Example 1:**
+
+```python
+X = {1, 2, 3, 4, 5, 8}
+X.discard(5)
+X
+# >> {1, 2, 3, 4, 8}
+````
+
+**Example 2 (Discarding a non-existent element):**
+
+```python
+X.discard(5)  # If we again discard(5) it will not give an error.
+# >> {1, 2, 3, 4, 8}
+```
+
+---
+
+## Set Logic Operations
+
+Logic Operations apply on sets.
+
+1. **Union** (`|` operator): returns all unique values.
+
+   ```python
+   set1 = {'Hello', 3.14, 10, True}
+   set2 = {3.14, True, 2025, False}
+   set1.union(set2)
+   # >> {10, 2025, 3.14, False, True, 'Hello'}
+   ```
+
+2. **Intersection** (`&` operator): returns only duplicate values (common elements).
+
+   ```python
+   set1 = {'Hello', 3.14, 10, True}
+   set2 = {3.14, True, 2025, False}
+   print(set1.intersection(set2))
+   # >> {True, 3.14}
+
+   # Alternative using the '&' operator
+   set2 & set1
+   # >> {True, 3.14}
+   ```
+
+3. **Difference** (`-` operator): subtract one set from another.
+
+   ```python
+   set4 = {'Hello', 3.14, 10, True}
+   set5 = {3.14, True, False, 2025}
+   print(set4.difference(set5))
+   print(set5.difference(set4))
+
+   # >> {'Hello', 10}
+   # >> {False, 2025}
+
+   # Alternative using the '-' operator
+   set4 - set5
+   # >> {'Hello', 10}
+
+   set5 - set4
+   # >> {False, 2025}
+   ```
+
+4. **Symmetric Difference** (`^` operator): elements present in *either* set, but not in both.
+
+   ```python
+   set1 = {'Hello', 3.14, 10, True}
+   set2 = {3.14, True, False, 2025}
+   set1.symmetric_difference(set2)
+   # >> {10, 2025, False, 'Hello'}
+   ```
+
+---
+
+## Set Utility Functions
+
+### `clear()`
+
+* Removes all elements in the set and returns an **empty set**.
+
+```python
+set = {1, 2, 3, 6}
+set.clear()
+set
+# >> set()  # empty set
+```
+
+---
+
+## `issubset()` and `issuperset()`
+
+Both methods always return a **boolean value** (`True` / `False`).
+
+### `issubset()`
+
+* Checks whether **all elements of one set are present in another set**.
+
+```python
+A = {1, 2}
+B = {1, 2, 3, 4}
+print(A.issubset(B))
+print(B.issubset(A))
+
+# >> True   # all elements of A present in B.
+# >> False  # all elements of B not present in A.
+```
+
+> **Note:** `issubset()` → smaller set checking if it is inside a bigger set.
+
+---
+
+### `issuperset()`
+
+* Checks whether a set **contains all elements of another set**.
+
+```python
+A = {1, 2}
+B = {1, 2, 3, 4}
+print(A.issuperset(B))
+print(B.issuperset(A))
+
+# >> False  # A does not contain all of B
+# >> True   # B contains everything in A
+```
+
+> **Note:** `issuperset()` → bigger set checking if it contains a smaller set.
+
+---
+
+## Aggregate Functions
+
+Aggregate functions apply to sets (and other iterable types):
+
+* `min()`, `max()`, `sum()`, `len()`, `average()` (requires calculation).
+
+```python
+a = {1, 5, 2, 3, 4, 7}
+print("Sum:", sum(a))
+print("Minimum:", min(a))
+print("Maximum:", max(a))
+print("Length:", len(a))
+print("Average:", sum(a) / len(a))
+
+# >> Sum: 22
+# >> Minimum: 1
+# >> Maximum: 7
+# >> Length: 6
+# >> Average: 3.6666666666666665
+```
+
+
 ---
 [🔙 Back to Index](README.md)
