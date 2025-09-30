@@ -82,7 +82,6 @@ There are 3 types of functions:
 
 ### Built-in Functions
 
------
 
 ```python
 msg = "HELLO WORLD"
@@ -130,7 +129,6 @@ print(msgcase)
 
 ### The `.find()` Method
 
----
 
 The `.find()` method returns the index of the first occurrence of a substring. If the substring is not found, it returns `-1`.
 
@@ -167,7 +165,6 @@ print(x.find("ay"))
 
 ### The `len()` Function
 
----
 
 The `len()` function returns the length of a string, counting from 1.
 
@@ -184,7 +181,6 @@ print(len(x))
 
 ### The `.format()` and `.replace()` Methods
 
----
 
 **Difference between `.format()` and `.replace()`**
 
