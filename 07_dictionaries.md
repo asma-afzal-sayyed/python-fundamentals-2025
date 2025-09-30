@@ -101,7 +101,6 @@ dict
 **Output:**
 `{'name': 'Asma', 'age': 20, 'city': 'Pune', 'Phno': '1003568901'}`
 
----
 
 ### Updating an Existing Value
 
@@ -208,26 +207,49 @@ print(dict.get("city", "Not Found"))   # Returns 'Not Found'
 
 ### `fromkeys()` function
 
-* Creates a new dictionary from given keys with default value `None`.
+- If we want to create a dictionary only with **keys** and assign values as empty,  
+  we **cannot** do it directly like this:
 
 ```python
-key = {'a', 'b', 'c'}
-x = dict.fromkeys(key)
+# ❌ Invalid syntax
+dict = {'name': }
+````
+
+* This will give a **SyntaxError**.
+
+### Using `fromkeys()`
+
+* For empty values, we use the **`fromkeys()`** function.
+* It returns a **new dictionary** with a sequence of items as keys, and all values are assigned with `None` by default.
+
+### Example:
+
+```python
+keys = {'a', 'b', 'c'}
+x = dict.fromkeys(keys)
 print(x)
 ```
 
 **Output:**
-`{'a': None, 'b': None, 'c': None}`
 
-* Assigning values later:
+```
+{'a': None, 'b': None, 'c': None}
+```
+
+### Assigning Values Later
+
+* We can update any key’s value after creation.
 
 ```python
 x['a'] = 'apple'
-x
+print(x)
 ```
 
 **Output:**
-`{'a': 'apple', 'b': None, 'c': None}`
+
+```
+{'a': 'apple', 'b': None, 'c': None}
+```
 
 ---
 
