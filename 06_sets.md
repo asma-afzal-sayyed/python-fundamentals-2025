@@ -21,7 +21,7 @@ print(x, type(x))
 **Output:**
 
 ```python
-{} <class 'dict'>
+>> {} <class 'dict'>
 ```
 
 ---
@@ -38,7 +38,7 @@ print(type(x))
 **Output:**
 
 ```python
-<class 'set'>
+>> <class 'set'>
 ```
 
 ---
@@ -69,7 +69,7 @@ print(x)
 **Output (order may vary):**
 
 ```python
-{'Hello', 20, 'Asma', False, 'Python', 200}
+>> {'Hello', 20, 'Asma', False, 'Python', 200}
 ```
 
 Note: `'Asma'` will add **anywhere in the set** because indexing is not allowed.
@@ -93,8 +93,8 @@ print(x)
 **Output:**
 
 ```python
-{8, 9, 6, 7}
-{6, 7, 8, 9, 'Asma'}
+>> {8, 9, 6, 7}
+>> {6, 7, 8, 9, 'Asma'}
 ```
 
 ---
@@ -112,7 +112,7 @@ print(x)
 **Output:**
 
 ```python
-{6, 7, 8, 9}
+>> {6, 7, 8, 9}
 ```
 
 ---
@@ -130,7 +130,7 @@ print(x)
 **Possible Output:**
 
 ```python
-{6, 7, 8}
+>> {6, 7, 8}
 ```
 
 *(Note: The removed element may vary as sets are unordered.)*
@@ -150,14 +150,24 @@ print(x)
 X = {1, 2, 3, 4, 5, 8}
 X.discard(5)
 X
-# >> {1, 2, 3, 4, 8}
+```
+
+**Output:**
+
+```
+>> {1, 2, 3, 4, 8}
 ````
 
 **Example 2 (Discarding a non-existent element):**
 
 ```python
 X.discard(5)  # If we again discard(5) it will not give an error.
-# >> {1, 2, 3, 4, 8}
+```
+
+**Output:**
+
+```
+>> {1, 2, 3, 4, 8}
 ```
 
 ---
@@ -228,7 +238,12 @@ Logic Operations apply on sets.
 set = {1, 2, 3, 6}
 set.clear()
 set
-# >> set()  # empty set
+```
+
+**Output:**
+
+```
+>> set()  # empty set
 ```
 
 ---
@@ -246,7 +261,11 @@ A = {1, 2}
 B = {1, 2, 3, 4}
 print(A.issubset(B))
 print(B.issubset(A))
+```
 
+**Output:**
+
+```
 # >> True   # all elements of A present in B.
 # >> False  # all elements of B not present in A.
 ```
@@ -264,7 +283,11 @@ A = {1, 2}
 B = {1, 2, 3, 4}
 print(A.issuperset(B))
 print(B.issuperset(A))
+```
 
+**Output:**
+
+```
 # >> False  # A does not contain all of B
 # >> True   # B contains everything in A
 ```
