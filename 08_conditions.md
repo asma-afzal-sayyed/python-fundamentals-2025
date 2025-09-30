@@ -25,10 +25,10 @@ It contains the block of code that executes if the conditional expression in the
 ```python
 val = 1.618
 print(val > 20)
-````
 
-False
 
+>> False
+```
 ---
 
 ### 1. `if` statement
@@ -69,10 +69,10 @@ elif (age == 5):
     print("You can go to kindergarten")
 else:
     print("You are a kid")
+
+
+>> You can go to kindergarten.
 ```
-
-You can go to kindergarten.
-
 ---
 
 ### Example of `if-elif-else` condition
@@ -95,11 +95,11 @@ elif user == 6:
     print("Saturday")
 else:
     print("Invalid input")
+
+
+>> Enter any value from 0 to 6: 5
+Friday
 ```
-
-Enter any value from 0 to 6: **5**
-**Friday**
-
 ---
 
 ### Nested `if-else`
