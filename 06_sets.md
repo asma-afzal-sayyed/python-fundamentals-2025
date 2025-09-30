@@ -251,7 +251,7 @@ print(B.issubset(A))
 # >> False  # all elements of B not present in A.
 ```
 
-> **Note:** `issubset()` → smaller set checking if it is inside a bigger set.
+**Note:** `issubset()` → smaller set checking if it is inside a bigger set.
 
 ---
 
@@ -269,7 +269,7 @@ print(B.issuperset(A))
 # >> True   # B contains everything in A
 ```
 
-> **Note:** `issuperset()` → bigger set checking if it contains a smaller set.
+**Note:** `issuperset()` → bigger set checking if it contains a smaller set.
 
 ---
 
