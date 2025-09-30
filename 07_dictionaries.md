@@ -29,11 +29,12 @@ print(dict)
 **Output:**
 
 ```
-`{'name': 'Asma', 'age': 20, 'city': 'Pune'}`
+>> {'name': 'Asma', 'age': 20, 'city': 'Pune'}
+```
 
 * The dictionary is enclosed in curly brackets `{ }`.
 * Each key is separated from its value by a **colon ( : )**, and **commas ( , )** are used to separate the items.
-```
+
 
 ---
 
@@ -47,8 +48,8 @@ print(dict['age'])
 **Output:**
 
 ```
-Asma
-20
+>> Asma
+>> 20
 ```
 
 ---
@@ -64,7 +65,7 @@ dict.keys()
 **Output:**
 
 ```
-`dict_keys(['name', 'age', 'city'])`
+>> dict_keys(['name', 'age', 'city'])
 ```
 
 ---
@@ -80,7 +81,7 @@ dict.values()
 **Output:**
 
 ```
-`dict_values(['Asma', 20, 'Pune'])`
+>> dict_values(['Asma', 20, 'Pune'])
 ```
 
 ---
@@ -96,7 +97,7 @@ dict.items()
 **Output:**
 
 ```
-`dict_items([('name', 'Asma'), ('age', 20), ('city', 'Pune')])`
+>> dict_items([('name', 'Asma'), ('age', 20), ('city', 'Pune')])
 ```
 
 ---
@@ -113,7 +114,7 @@ dict
 **Output:**
 
 ```
-`{'name': 'Asma', 'age': 20, 'city': 'Pune', 'Phno': '1003568901'}`
+>> {'name': 'Asma', 'age': 20, 'city': 'Pune', 'Phno': '1003568901'}
 ```
 
 ### Updating an Existing Value
@@ -126,7 +127,7 @@ dict
 **Output:**
 
 ```
-`{'name': 'Asma', 'age': 20, 'city': 'Pune', 'Phno': '1234'}`
+>> {'name': 'Asma', 'age': 20, 'city': 'Pune', 'Phno': '1234'}
 ```
 
 ---
@@ -143,8 +144,8 @@ dict
 **Output:**
 
 ```
-'1234'
-{'name': 'Asma', 'age': 20, 'city': 'Pune'}
+>> '1234'
+>> {'name': 'Asma', 'age': 20, 'city': 'Pune'}
 ```
 
 ---
@@ -161,8 +162,8 @@ dict
 **Output:**
 
 ```
-('city', 'Pune')
-{'name': 'Asma', 'age': 20}
+>> ('city', 'Pune')
+>> {'name': 'Asma', 'age': 20}
 ```
 
 ---
@@ -250,7 +251,7 @@ print(x)
 **Output:**
 
 ```
-{'a': None, 'b': None, 'c': None}
+>> {'a': None, 'b': None, 'c': None}
 ```
 
 ### Assigning Values Later
@@ -265,7 +266,7 @@ print(x)
 **Output:**
 
 ```
-{'a': 'apple', 'b': None, 'c': None}
+>> {'a': 'apple', 'b': None, 'c': None}
 ```
 
 ---
@@ -283,7 +284,7 @@ print(25 in dict)
 **Output:**
 
 ```
-`False`
+>> False
 ```
 
 Adding an item and re-checking:
@@ -297,8 +298,8 @@ print(25 in dict)
 **Output:**
 
 ```
-{'name': 'Asma', 'age': 20, 25: 100}
-True
+>> {'name': 'Asma', 'age': 20, 25: 100}
+>> True
 ```
 
 ---
@@ -315,7 +316,7 @@ x
 **Output:**
 
 ```
-`{'family': 'music', 'type': 'pop', 'year': 2025}`
+>> {'family': 'music', 'type': 'pop', 'year': 2025}
 ```
 
 ```python
@@ -326,7 +327,7 @@ x
 **Output:**
 
 ```
-`{'family': 'music', 'type': 'pop', 'year': 2025, 'name': 'Asma'}`
+>> {'family': 'music', 'type': 'pop', 'year': 2025, 'name': 'Asma'}
 ```
 
 ---
