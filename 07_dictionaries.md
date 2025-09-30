@@ -155,21 +155,54 @@ dict
 
 ### `get()` function
 
-* Checks if a key exists safely without raising an error.
+- The `get()` function is used to **safely access values** in a dictionary.  
+- It **checks if a key is valid or not**.  
+
+
+
+### Direct Key Access vs `get()`
+
+- If we directly access a key using `dict["name"]`, it:  
+  - Returns the value if the key exists.  
+  - Raises an **error** if the key does not exist.  
+
+Example:  
 
 ```python
-dict.get('name')
-```
+dict = {"name": "Asma", "age": 20}
 
-**Output:**
-`Asma`
+print(dict["name"])   # ✅ Works, key exists
+print(dict["city"])   # ❌ Raises KeyError
+````
+
+
+
+### Using `get()`
+
+* The `get()` function provides a safer way to check if a key exists.
+* It **doesn't raise an error** if the key is not found in the dictionary.
+* Instead, it returns `None` (or a default value if provided).
+
+Example:
 
 ```python
-dict.get('city')
+dict = {"name": "Asma", "age": 20}
+
+print(dict.get("name"))   # ✅ Returns 'Asma'
+print(dict.get("city"))   # ✅ Returns None (no error)
 ```
 
-**Output:**
-`None`
+
+
+### Providing a Default Value
+
+* We can also specify a default value if the key is missing.
+
+```python
+dict = {"name": "Asma", "age": 20}
+
+print(dict.get("city", "Not Found"))   # Returns 'Not Found'
+```
 
 ---
 
