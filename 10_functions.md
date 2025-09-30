@@ -19,7 +19,9 @@ In **Python**, a function is a group of related statements that performs a **spe
 - A **colon (:)** to mark the end of the function header.  
 - Optional **documentation string (docstring)** to describe what the function does.  
 - Statements must have the same **indentation level** (usually 4 spaces or 1 tab).  
-- An optional **return statement** to return a value from the function.  
+- An optional **return statement** to return a value from the function.
+
+---  
 
 ### Types of User-Defined Functions
 
@@ -32,6 +34,76 @@ Functions can be classified based on parameters and return values:
 
 ---
 
+### 1. Function with Parameters (Parameterized Function)
+
+```python
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("Asma")
+greet("Python")
+````
+
+**Output:**
+
+```
+>> Hello, Asma!
+>> Hello, Python!
+```
+
+---
+
+### 2. Function without Parameters (Non-Parameterized Function)
+
+```python
+def welcome():
+    print("Welcome to Python programming!")
+
+welcome()
+```
+
+**Output:**
+
+```
+>> Welcome to Python programming!
+```
+
+---
+
+### 3. Function with Return Value
+
+```python
+def square(num):
+    return num * num
+
+result = square(5)
+print(result)
+```
+
+**Output:**
+
+```
+>> 25
+```
+
+---
+
+### 4. Function without Return Value
+
+```python
+def display_info(name, age):
+    print(f"Name: {name}, Age: {age}")
+
+display_info("Asma", 21)
+```
+
+**Output:**
+
+```
+>> Name: Asma, Age: 21
+```
+
+---
 ## Variables (Local and Global)
 
 - The input to a function is called a **formal parameter**.  
@@ -61,9 +133,8 @@ val()
 
 ---
 
-## Parameterized Function with Return Value
 
-### Example 1
+### Example 1:
 
 ```python
 def process(x):
