@@ -16,6 +16,8 @@ else:
     # optional block (executes if the loop finishes without `break`)
 ```
 
+---
+
 **Example 1: Iterating over a string using `range(len())`**
 
 ```python
