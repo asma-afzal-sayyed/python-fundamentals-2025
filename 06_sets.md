@@ -137,7 +137,7 @@ print(x)
 
 ---
 
-### `discard()`
+### 4. `discard()`
 
 - `discard()` is used to **remove an element from a set**.  
 - `discard()` removes the element if it exists in the set.  
