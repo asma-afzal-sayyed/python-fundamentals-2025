@@ -9,6 +9,7 @@ A **variable** is a named storage that holds a value in a program. Variables all
 - The **value** of a variable can change during program execution.
 - In Python, you don't need to declare the type explicitly; it is **dynamically typed**.
 
+---
 
 ## Naming Rules for Variables
 
@@ -38,6 +39,9 @@ student_score = 95
 class = "Python"    # 'class' is a reserved keyword
 
 ```
+
+---
+
 ## Variable Types
 
 ### camelCase
@@ -52,6 +56,8 @@ All letters are lowercase, and words are separated by an underscore (`_`).
 Also known as Upper Camel Case. Every word starts with an uppercase letter. No spaces or punctuation are used between words.  
 **Example:** `UserAccountDetails`
 
+---
+
 ## Escape Sequences
 
 An escape sequence starts with a backslash (`\`) and allows you to include special characters in strings.
@@ -65,6 +71,8 @@ An escape sequence starts with a backslash (`\`) and allows you to include speci
 - `\t` - Tab  
 - `\r` - Carriage return  
 - `\b` - Backspace
+
+---
 
 ## Python Operators
 
@@ -88,6 +96,8 @@ An escape sequence starts with a backslash (`\`) and allows you to include speci
 
 ### 6. Membership Operators
 `in`, `not in`  
+
+---
 
 ## String and Integer Concatenation
 
@@ -160,6 +170,7 @@ print(sum1)
 5. `print(sum1)`  
    Outputs the result `20`.
 
+---
 
 ## ASCII (American Standard Code for Information Interchange)
 
