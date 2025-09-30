@@ -294,6 +294,5 @@ print("Average:", sum(a) / len(a))
 # >> Average: 3.6666666666666665
 ```
 
-
 ---
 [🔙 Back to Index](README.md)
