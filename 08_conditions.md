@@ -134,10 +134,10 @@ else:
 
 ## 📓 Jupyter Notebook
 You can view the runnable code in the notebook:  
-[**Writing Files in Python**](./Notebooks/Conditions in Python.ipynb)
+[**Writing Files in Python**](./Notebooks/Conditions_in_Python.ipynb)
 
 Or run it directly in Google Colab:  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/asma-afzal-sayyed/python-fundamentals-2025/blob/main/Notebooks/Conditions in Python.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/asma-afzal-sayyed/python-fundamentals-2025/blob/main/Notebooks/Conditions_in_Python.ipynb)
 
 
 ---
