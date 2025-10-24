@@ -129,6 +129,12 @@ while i < j:
 10
 ```
 
+## 📓 Jupyter Notebook
+You can view the runnable code in the notebook:  
+[**Conditions in Python**](./Notebook/Loops_in_Python.ipynb)
+
+Or run it directly in Google Colab:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/asma-afzal-sayyed/python-fundamentals-2025/blob/main/Notebook/Loops_in_Python.ipynb)
 
 ---
 [🔙 Back to Index](README.md)
