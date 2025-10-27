@@ -19,7 +19,7 @@ Python is an object-oriented language that supports all OOP principles.
 4. [3️⃣ Encapsulation](#3️⃣-encapsulation)
 5. [4️⃣ Data Abstraction](#4️⃣-data-abstraction)
 6. [📊 Summary](#📊-summary)
-7. [📓 Jupyter Notebook Link](#📓-jupyter-notebook-link)
+7. [📗 Jupyter Notebook Link](#📓-jupyter-notebook-link)
 
 ---
 
@@ -142,10 +142,52 @@ print(obj2.popularity)
 
 ### 🧬 Hybrid Inheritance
 
-Hybrid inheritance is a combination of more than one type of inheritance (e.g., Single, Multiple, or Multilevel).
+Hybrid inheritance is a combination of more than one type of inheritance (for example, combining **Multiple** and **Multilevel Inheritance**).
 
 > ⚠️ **Note:** In hybrid inheritance, ambiguity can occur if a child class inherits from multiple parent classes having the same method names.
-> Python handles this using **MRO (Method Resolution Order)**.
+> Python handles this using **Method Resolution Order (MRO)**.
+
+#### ✅ Example: Hybrid Inheritance in Python
+
+```python
+# Single inheritance + Multiple inheritance combined
+
+# Base class
+class ClassA:
+    def featureA(self):
+        print("Feature A from ClassA")
+
+# Derived from ClassA (Multilevel inheritance)
+class ClassB(ClassA):
+    def featureB(self):
+        print("Feature B from ClassB")
+
+# Another independent base class
+class ClassC:
+    def featureC(self):
+        print("Feature C from ClassC")
+
+# Derived from ClassB and ClassC (Hybrid = Multilevel + Multiple)
+class ClassD(ClassB, ClassC):
+    def featureD(self):
+        print("Feature D from ClassD")
+
+# Create object of ClassD
+obj = ClassD()
+obj.featureA()  # From ClassA
+obj.featureB()  # From ClassB
+obj.featureC()  # From ClassC
+obj.featureD()  # From ClassD
+```
+
+**Output:**
+
+```
+Feature A from ClassA
+Feature B from ClassB
+Feature C from ClassC
+Feature D from ClassD
+```
 
 ---
 
@@ -272,21 +314,11 @@ obj.deposit(500)
 obj.withdrawal(200)
 ```
 
-> 🧠 **Why use Encapsulation?**
->
-> * To prevent direct modification of sensitive data
-> * To provide controlled access using getters and setters
-
 ---
 
 ## 4️⃣ Data Abstraction
 
 **Abstraction** means hiding internal implementation details and exposing only the essential features.
-
-Example:
-When you drive a car, you use the **steering** and **brakes** — you don’t need to know how the engine or transmission works.
-
----
 
 ### 🧰 Example Using `abc` Module
 
