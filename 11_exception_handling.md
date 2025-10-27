@@ -253,6 +253,7 @@ finally:
 * If an error occurs → `except` runs, then `finally`.
 * `finally` ensures cleanup or final statements always execute.
 
+---
 
 ## 📗 Jupyter Notebook
 You can view the runnable code in the notebook:  
