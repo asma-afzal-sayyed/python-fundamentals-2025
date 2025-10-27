@@ -43,12 +43,12 @@ Used to convert one type to another.
 
 ### 4. Object & Class Related
 
-| Column 1         | Column 2         | Column 3     | Column 4 |
-|------------------|-----------------|-------------|----------|
-| `classmethod()`  | `staticmethod()` | `property()` | `type()` |
-| `super()`        | `isinstance()`  | `callable()` |          |
-| `id()`           | `issubclass()`  |             |          |
-| `object()`       |                 |             |          |
+| Column 1         | Column 2         | Column 3     |
+|------------------|-----------------|-------------|
+| `classmethod()`  | `staticmethod()` | `type()` | 
+| `super()`        | `isinstance()`  | `callable()` |
+| `id()`           | `issubclass()`  |             | 
+| `object()`       | `property()` |             | 
 
 ---
 
