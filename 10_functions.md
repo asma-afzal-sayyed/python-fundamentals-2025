@@ -169,7 +169,9 @@ ans
 >> 59.370000000000005
 ```
 
-## 📓 Jupyter Notebook
+---
+
+## 📗 Jupyter Notebook
 You can view the runnable code in the notebook:  
 [**Functions in Python**](./Notebook/Functions_in_Python.ipynb)
 
