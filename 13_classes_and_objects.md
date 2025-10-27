@@ -236,7 +236,7 @@ But for advanced operations (square roots, trigonometry, logarithms, etc.), you 
 
 ---
 
-## 📓 Jupyter Notebook
+## 📗 Jupyter Notebook
 You can view the runnable code in the notebook:  
 [**Class_&_Object in Python**](./Notebook/Class_&_Object_in_Python.ipynb)
 
