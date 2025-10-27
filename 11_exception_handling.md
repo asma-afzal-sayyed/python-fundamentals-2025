@@ -254,7 +254,7 @@ finally:
 * `finally` ensures cleanup or final statements always execute.
 
 
-## 📓 Jupyter Notebook
+## 📗 Jupyter Notebook
 You can view the runnable code in the notebook:  
 [**Exception_Handling in Python**](./Notebook/Exception_Handling_in_Python.ipynb)
 
