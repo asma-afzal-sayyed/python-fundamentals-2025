@@ -71,18 +71,17 @@ Used to convert one type to another.
 
 ### 7. Code Execution & Compilation
 
-| Column 1    | Column 2    | Column 3    | Column 4 |
-|------------|------------|------------|----------|
-| `eval()`   | `exec()`   | `compile()` | `help()` |
-| `breakpoint()` | `__import__()` |         |          |
-
+| Column 1    | Column 2    | Column 3    | 
+|------------|------------|------------|
+| `eval()`   | `exec()`   | `compile()` |
+| `breakpoint()` | `__import__()` | `help()`|
 ---
 
 ### 8. Constants & Special
 
-| Column 1 | Column 2 | Column 3 | Column 4 |
-|----------|----------|----------|----------|
-| `hash()` | `slice()` |          |          |
+| Column 1 | Column 2 |
+|----------|----------|
+| `hash()` | `slice()` |
 
 
 ---
