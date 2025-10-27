@@ -129,7 +129,9 @@ while i < j:
 10
 ```
 
-## 📓 Jupyter Notebook
+---
+
+## 📗 Jupyter Notebook
 You can view the runnable code in the notebook:  
 [**Loops in Python**](./Notebook/Loops_in_Python.ipynb)
 
