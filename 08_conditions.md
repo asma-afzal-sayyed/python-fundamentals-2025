@@ -132,7 +132,9 @@ else:
     print("Fail")
 ```
 
-## 📓 Jupyter Notebook
+---
+
+## 📗 Jupyter Notebook
 You can view the runnable code in the notebook:  
 [**Conditions in Python**](./Notebook/Conditions_in_Python.ipynb)
 
