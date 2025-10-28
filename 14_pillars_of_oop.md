@@ -19,7 +19,7 @@ Python is an object-oriented language that supports all OOP principles.
 4. [3️⃣ Encapsulation](#3️⃣-encapsulation)
 5. [4️⃣ Data Abstraction](#4️⃣-data-abstraction)
 6. [📊 Summary](#📊-summary)
-7. [📗 Jupyter Notebook Link](#📓-jupyter-notebook-link)
+7. [📗 OOPs Mini Projects](#💻-oop-project-collection-in-python)
 
 ---
 
@@ -380,17 +380,6 @@ Each notebook demonstrates one or more key OOP concepts such as Inheritance, Enc
 | 7️⃣ | **Hospital Management System** | Inheritance, Abstraction, Polymorphism, Encapsulation | [View Notebook](./Notebook/OOP_Project_Hospital_Management_System.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Notebook/OOP_Project_Hospital_Management_System.ipynb) |
 | 8️⃣ | **Hotel Booking System** | Encapsulation, Composition, Inheritance | [View Notebook](./Notebook/OOP_Project_Hotel_Booking_System.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Notebook/OOP_Project_Hotel_Booking_System.ipynb) |
 | 9️⃣ | **ATM System (Interactive Project)** | Encapsulation, Polymorphism, Exception Handling | [View Notebook](./Notebook/ATM_Project.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Notebook/ATM_Project.ipynb) |
-
----
-
-
-## 📗 Jupyter Notebook Link
-You can also view the core concept notebook here:  
-[**Pillars of OOPs in Python**](./Notebook/Pillars_of_OOPs_in_Python.ipynb)
-
-Or run it directly in Google Colab:  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Notebook/Pillars_of_OOPs_in_Python.ipynb)
-
  
 
 ---
