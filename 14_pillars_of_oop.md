@@ -364,16 +364,33 @@ car.stop()   # Output: Car engine stopped.
 
 ---
 
+## 💻 OOP Project Collection in Python
+
+Explore these **Object-Oriented Programming (OOP)** mini-projects implemented in Python.  
+Each notebook demonstrates one or more key OOP concepts such as Inheritance, Encapsulation, Polymorphism, Abstraction, and Composition.
+
+| No. | Project Title | Concepts Covered | Notebook Link | Open in Colab |
+|-----|----------------|------------------|----------------|----------------|
+| 1️⃣ | **Library Management System** | Encapsulation, Inheritance, Polymorphism, Abstraction | [View Notebook](./Notebook/OOP_Project_Library_Management_System.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Notebook/OOP_Project_Library_Management_System.ipynb) |
+| 2️⃣ | **Student Management System** | Inheritance, Abstraction, Composition | [View Notebook](./Notebook/OOP_Project_Student_Management_System.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Notebook/OOP_Project_Student_Management_System.ipynb) |
+| 3️⃣ | **Online Shopping Cart** | Composition, Encapsulation, Polymorphism | [View Notebook](./Notebook/OOP_Project_Online_Shopping_Cart.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Notebook/OOP_Project_Online_Shopping_Cart.ipynb) |
+| 4️⃣ | **Employee Payroll System** | Inheritance, Polymorphism, Encapsulation | [View Notebook](./Notebook/OOP_Project_Employee_Payroll_System.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Notebook/OOP_Project_Employee_Payroll_System.ipynb) |
+| 5️⃣ | **Vehicle Rental System** | Inheritance, Abstraction, Method Overriding | [View Notebook](./Notebook/OOP_Project_Vehicle_Rental_System.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Notebook/OOP_Project_Vehicle_Rental_System.ipynb) |
+| 6️⃣ | **School Grading System** | Inheritance, Composition, Polymorphism | [View Notebook](./Notebook/OOP_Project_School_Grading_System.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Notebook/OOP_Project_School_Grading_System.ipynb) |
+| 7️⃣ | **Hospital Management System** | Inheritance, Abstraction, Polymorphism, Encapsulation | [View Notebook](./Notebook/OOP_Project_Hospital_Management_System.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Notebook/OOP_Project_Hospital_Management_System.ipynb) |
+| 8️⃣ | **Hotel Booking System** | Encapsulation, Composition, Inheritance | [View Notebook](./Notebook/OOP_Project_Hotel_Booking_System.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Notebook/OOP_Project_Hotel_Booking_System.ipynb) |
+| 9️⃣ | **ATM System (Interactive Project)** | Encapsulation, Polymorphism, Exception Handling | [View Notebook](./Notebook/ATM_Project.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Notebook/ATM_Project.ipynb) |
+
+---
+
+
 ## 📗 Jupyter Notebook Link
+You can also view the core concept notebook here:  
+[**Pillars of OOPs in Python**](./Notebook/Pillars_of_OOPs_in_Python.ipynb)
 
-You can view the runnable code in the Jupyter Notebook:
-[**Pillars_of_OOPs_in_Python.ipynb**](./Notebook/Pillars_of_OOPs_in_Python.ipynb)
-
-Or run it directly in Google Colab:
+Or run it directly in Google Colab:  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Notebook/Pillars_of_OOPs_in_Python.ipynb)
 
-You can explore a complete Object-Oriented Programming mini projects here:
-[**OOPs Mini_Projects**](./Notebook/OOPs_Mini_Projects.ipynb)
  
 
 ---
