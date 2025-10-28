@@ -19,7 +19,7 @@ Python is an object-oriented language that supports all OOP principles.
 4. [3️⃣ Encapsulation](#3️⃣-encapsulation)
 5. [4️⃣ Data Abstraction](#4️⃣-data-abstraction)
 6. [📊 Summary](#summary)
-7. [📗 OOPs Mini Projects](#oop-project-collection-in-python)
+7. [💻 OOP Project Collection in Python](#oop-project-collection-in-python)
 
 
 ---
