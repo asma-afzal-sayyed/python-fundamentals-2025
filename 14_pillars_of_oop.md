@@ -372,5 +372,9 @@ You can view the runnable code in the Jupyter Notebook:
 Or run it directly in Google Colab:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Notebook/Pillars_of_OOPs_in_Python.ipynb)
 
+You can explore a complete Object-Oriented Programming mini project here:
+[**OOPs Mini_Projects**](./Notebook/OOPs_Mini_Projects.ipynb)
+ 
+
 ---
 [🔙 Back to Index](README.md)
