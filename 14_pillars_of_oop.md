@@ -1,10 +1,9 @@
+<a name="top"></a>
+
 # 🧱 Pillars of Object-Oriented Programming (OOPs) in Python
 
 Object-Oriented Programming (OOP) is a programming paradigm based on the concept of **objects** that contain **data (attributes)** and **methods (functions)**.  
 Python is an object-oriented language that supports all OOP principles.
-
-
-<a name="top"></a>
 
 ---
 ## 🗂️ Table of Contents
