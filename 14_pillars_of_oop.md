@@ -3,8 +3,10 @@
 Object-Oriented Programming (OOP) is a programming paradigm based on the concept of **objects** that contain **data (attributes)** and **methods (functions)**.  
 Python is an object-oriented language that supports all OOP principles.
 
----
 
+<a name="top"></a>
+
+---
 ## 🗂️ Table of Contents
 1. [Introduction](#introduction)
 2. [1️⃣ Inheritance](#1️⃣-inheritance)
@@ -35,6 +37,8 @@ The **four main pillars** of OOP are:
 | **Polymorphism** | Using one interface with multiple implementations |
 | **Encapsulation** | Binding data and methods together while restricting direct access |
 | **Data Abstraction** | Hiding implementation details and exposing only necessary features |
+
+<p align="right">[🔼 Back to Top](#top)</p>
 
 ---
 
@@ -191,6 +195,8 @@ Feature C from ClassC
 Feature D from ClassD
 ```
 
+<p align="right">[🔼 Back to Top](#top)</p>
+
 ---
 
 ## 2️⃣ Polymorphism
@@ -270,6 +276,8 @@ model(10, 20)  # Output: 30
 | Execution Time | Runtime               | Compile time (simulated in Python) |
 | Type           | Dynamic Polymorphism  | Static Polymorphism                |
 
+<p align="right">[🔼 Back to Top](#top)</p>
+
 ---
 
 ## 3️⃣ Encapsulation
@@ -316,6 +324,8 @@ obj.deposit(500)
 obj.withdrawal(200)
 ```
 
+<p align="right">[🔼 Back to Top](#top)</p>
+
 ---
 
 ## 4️⃣ Data Abstraction
@@ -353,6 +363,8 @@ car.stop()   # Output: Car engine stopped.
 > * Abstract classes **cannot be instantiated**.
 > * Child classes must implement **all abstract methods**.
 
+<p align="right">[🔼 Back to Top](#top)</p>
+
 ---
 
 ## 📊 Summary
@@ -363,6 +375,8 @@ car.stop()   # Output: Car engine stopped.
 | **Polymorphism**  | Same interface, different behaviors | Flexibility      |
 | **Encapsulation** | Restricting direct access to data   | Data Protection  |
 | **Abstraction**   | Hiding implementation details       | Simplification   |
+
+<p align="right">[🔼 Back to Top](#top)</p>
 
 ---
 
@@ -383,6 +397,8 @@ Each notebook demonstrates one or more key OOP concepts such as Inheritance, Enc
 | 8️⃣ | **Hotel Booking System** | Encapsulation, Composition, Inheritance | [View Notebook](./Notebook/OOP_Project_Hotel_Booking_System.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/asma-afzal-sayyed/python-fundamentals/blob/main/Notebook/OOP_Project_Hotel_Booking_System.ipynb) |
 | 9️⃣ | **ATM System (Interactive Project)** | Encapsulation, Polymorphism, Exception Handling | [View Notebook](./Notebook/ATM_Project.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/asma-afzal-sayyed/python-fundamentals/blob/main/Notebook/ATM_Project.ipynb) |
 
+
+<p align="right">[🔼 Back to Top](#top)</p>
 
 ---
 [🔙 Back to Index](README.md)
