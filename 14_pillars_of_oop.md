@@ -22,6 +22,7 @@ Python is an object-oriented language that supports all OOP principles.
 7. [💻 OOP Project Collection in Python](#oop-project-collection-in-python)
 
 
+
 ---
 
 ## 🧩 Introduction
